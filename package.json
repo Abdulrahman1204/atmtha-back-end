@@ -1,0 +1,38 @@
+{
+  "name": "atmtha_backend",
+  "version": "1.0.0",
+  "description": "backend for atmtha app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon Server",
+    "start": "node server.js",
+    "bulid" : "netlify deplay --prod"
+  },
+  "author": "Abdulrahman Al Ali & Mohammad Al Ghareeb",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "firebase-admin": "^12.0.0",
+    "joi": "^17.11.1",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.0.2",
+    "qrcode": "^1.5.3",
+    "socket.io": "^4.7.4",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
